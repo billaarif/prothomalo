@@ -1,0 +1,628 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+img{
+	width: 100%;
+}
+a{
+	text-decoration: none;
+
+}
+
+/************************************************************************
+ 							Header Section Start
+ *************************************************************************/
+
+.main-menu{                            
+	max-width: 1280px;
+	padding: 20px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.logo-box img{
+  		width: 250px
+  	}
+.logo-box-hide{
+	display: none;
+}
+.main-icon{
+	display: flex;
+	flex-direction: column;
+	row-gap: 15px;
+}
+.fa-solid{
+	padding: 0 7px;
+	font-size: 25px;
+	color: #525050;
+}
+.date-time p{
+	padding: 5px 10px;
+	color: #858585;
+	font-weight: 400;
+}
+.login_button{
+	display: flex;
+
+}
+.fa-regular{
+	font-size: 25px;
+	padding: 5px 20px;
+	color: #918e8e;
+}
+.login_button button{
+	padding: 5px 20px;
+	font-size: 18px;
+	font-weight: 500;
+	color: #2799ff;
+	background-color: #0000000d;
+	border: 1px solid #c1bcbc;
+}
+p.Add-Edit {
+    background: #242222;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+p.Add-Edit:hover {
+    box-shadow: 0px 0px 10px 3px #f5060661;
+    border: 1px solid #7e0000;
+    background: #727272;
+    transition: 1s;
+}
+.Add-Edit a{
+	color: white;
+}
+.edition{
+	align-self: flex-end;
+}
+.edition span{
+	color: #918e8e;
+}
+
+/************************************************************************
+ 							 nav_section
+ *************************************************************************/
+
+.nav-bar{    
+	max-width: 1280px; 
+	margin: 0 auto;                               
+	border-top: 1.8px solid #00000024;
+	
+	border-bottom: 2.5px solid #00000024;
+	
+}
+.main-nav{
+	display: flex;
+	align-items: center;
+	padding: 15px;
+	justify-content: center;
+}
+.responcive{
+	display: none;
+	border-radius: 0 10px 10px 0;
+	background-color:#dfdcdc54;
+}
+.responcive-2{
+	display: none;
+	border-radius: 10px 0 0 10px;
+	background-color:#dfdcdc54;
+}
+.big{
+	text-align: left;
+	margin: 15px 0px;
+	font-size: 20px;
+}
+.nav-menu{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #e5e4e417;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    overflow: auto;
+} 
+ 
+.nav-menu p a{
+	
+	width: 100px;
+	text-decoration: none;
+	color: #464646;
+	font-weight: 550;
+} 
+
+/************************************************************************
+ 								 Ad Section
+ *************************************************************************/
+
+.free-add{                       
+	margin: 20px 0;
+	background-color: #f3f3f361;
+	height: 100px;
+	border-bottom: 1.5px solid #00000024;
+}
+.extra{
+	height: 250px;
+	max-width: 1100px;
+	margin: 20px auto;
+	background-color: #f3f3f3;
+	border-bottom: none;
+}
+
+/************************************************************************
+ 								 Main Menu Section
+ *************************************************************************/
+/*****************
+ utiliti css class
+*****************/
+.container{
+	width: 1280px;
+	margin: 10px auto;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+.col-1{
+	flex-basis: 100%;
+}
+.col-2{
+	flex-basis: 50%;
+}
+.col-3{
+	flex-basis: 33%;
+}
+.col-4{
+	flex-basis: 25%;
+}
+
+.text-right{
+	text-align: right;
+}
+.text-center{
+	text-align: center;
+}
+
+
+
+/*****************
+ * Main Menu
+*****************/
+.primary-menu {
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 15px;
+}
+#main-menu ul {
+    list-style: none;
+}
+#main-menu ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+#main-menu ul li a{
+    text-decoration: none;
+}
+
+
+
+/*************************
+ * Content
+*************************/
+.content-area {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.content{
+	flex-basis: 70%;
+}
+.sidebar{
+	flex-basis: 30%;
+}
+
+
+.featured-news img {
+    max-height: 300px;
+}
+.featured-news {
+    display: flex;
+    column-gap: 20px;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 10px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+.featured-image{
+	flex-basis: 50%;
+}
+.featured-details{
+	flex-basis: 50%;
+}
+.news-card {
+    margin: 10px 0;
+    padding-right: 10px;
+}
+
+/************************************************************************
+ 							pagination section Start
+ *************************************************************************/	
+.pagination{
+	margin: 30px auto;
+}
+.pagination ul li{
+	background-color: #f1f1f1;
+	color: black;
+	display: inline-block;
+    padding: 3px 12px;
+    border: 1px solid purple;
+    margin: 0 5px;
+    font-size: 19px;
+    font-weight: 800;
+}
+a:visited{
+	background: red;
+}
+
+/************************************************************************
+ 							footer section Start
+ *************************************************************************/	
+footer{
+	margin: 70px 0;
+}
+.footer{
+	padding: 0 15px;
+	margin: 20px auto;
+	max-width: 1280px;
+	border-bottom: 2px solid #9f9f9fbd;
+}
+.footer-menu{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 0;
+
+}
+.footer-menu p{
+	padding: 10px 0;
+	width: 120px;
+	
+}
+.socil-icon{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.socil-icon p{
+	padding: 10px 0;
+}
+.fa-brands{
+	font-size: 30px;
+	color: red;
+	padding: 10px;
+}
+.social{
+	padding: 20px 0;
+	flex-wrap: wrap;
+	row-gap: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.app-icon{
+	width: 50%;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+.app-section img{
+	display: inline-block;
+		width: auto;
+		height: 70px;
+		margin: 10px;
+		border-radius: 15px;
+}
+.copy{
+	border: none;
+	margin: 40px auto 60px auto;
+}
+.copyright p{
+	text-align: center;
+	font-size: 15px;
+}
+
+
+/************************************************************************
+ 							submit news section Start
+ *************************************************************************/
+ .add_news-box-bg{
+	border: 0.1px solid #ff000000;
+	background-image: url("../images/add-news-bg.png");
+}
+
+.add_news{
+	color: white;
+	max-width: 600px;
+	padding-top: 30px;
+	margin: 60px auto;
+	box-shadow: 0 0 40px 1px gray;
+	border-radius: 10px;
+	background-color: #0000009e;
+}
+.add-news-box{
+	margin: auto 20px;
+	display: flex;
+	row-gap: 20px;
+	flex-direction: column;
+}
+.add_news_title{
+	padding: 20px 0;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 900;
+}
+.add_news_title p{
+	display: inline-block;
+	padding: 5px 0;
+	border-bottom: 3px dashed gray;
+}
+
+.title_name input{
+	width: 60%;
+	padding: 10px 5px;
+	font-weight: 600;
+	font-size: 17px;
+	outline: none;
+}
+.title-all{
+	padding: 20px 10px;
+	text-align: center;
+	font-size: 25px;
+	display: inline-block;
+	width: 150px;
+	text-align: justify;
+	font-weight: 600;
+}
+.category select{
+		width: 200px;
+		padding: 10px;
+		outline: none;
+		border: 2px solid gray;
+		border-radius: 3px;
+		font-size: 18px;
+		font-weight: 500;
+}
+.category option{
+	background-color: gray;
+}
+
+.add_time input{
+	border-radius: 5px;
+	outline: none;
+	padding: 5px 15px;
+	font-size: 20px;
+}
+.add_file input{
+	outline: none;
+	font-size: 15px;
+	font-weight: 600;
+}
+.news_details {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.news_submit{
+	align-self: flex-end;
+	
+}
+.news_submit input{
+	background-color: #ffbc82;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	margin: 20px 10px;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.5;
+	padding: 10px 35px;
+}
+
+
+
+
+
+
+/************************************************************************
+ 							register section Start
+ *************************************************************************/	
+ .container-reg-log {
+	max-width: 400px;
+	background: #d7dde5;
+	margin: 0 auto;
+	margin-top: 50px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 0px #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;  
+}
+.form-group-1{
+	margin-top: 10px;
+	width: 100%;
+	color: white;
+	background: #494687;
+	padding: 20px 0;
+	text-align: center;
+}
+.form-group{
+	margin: 20px 0;
+}
+.form-group input {
+	width: 100%;
+	margin: 10px 0;
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 5px;
+	outline: none;
+	border: none;	
+}
+.form-group-2{
+	background: #6d5dbd;
+	width: 100%;
+	padding: 30px 20px;	
+}
+.form-group-3{
+	border: none;
+	border-radius: 0 0 5px 5px;
+	background: #6d5dbd;
+	width: 100%;
+	padding: 30px 0;
+	text-align: right;	
+}
+.form-group-3 button {
+	background: hsl(0, 75%, 69%);
+	color: #fff;
+	padding: 7px 25px;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+
+
+/************************************************************************
+ 							login section Start
+ *************************************************************************/	
+ .login button{
+	width: 90%;
+	margin: 0;
+ }
+.login{
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	row-gap: 15px;
+}
+.forget a{
+	color: rgb(10, 255, 51);
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 17px;
+}
+.account{
+	color: #cccfd1;
+	font-size: 18px;
+}
+.account a{
+	line-height: 10px;
+	padding: 0 3px;
+	color: #fff838;
+}
+
+
+
+
+
+
+
+
+
+/************************************************************************
+		********************************************************
+			*******************************************
+		 		 ******************************
+						Responsive design
+				 ******************************		
+			*******************************************			
+		********************************************************
+ *************************************************************************/
+
+
+
+ @media (max-width: 900px){
+
+/************************************************************************
+ 							Header Section Start
+ *************************************************************************/
+			.main-menu {
+				padding: 20px 5px;
+			}
+			.main-icon{
+				row-gap: 8px;
+			}
+			.menu-icon-box{
+				display: none;
+			}
+			.logo-box-hide{
+				display: block;
+			}
+			.logo-box-hide img{
+				margin-left: 5px;
+				width: 150px;
+			}
+			.logo-box{
+				display: none;
+			}
+
+ /************************************************************************
+ 							 nav_section
+ *************************************************************************/
+			.main-nav{
+				padding: 0;
+			}
+			.responcive{
+				display: block;
+			}
+			.responcive-2{
+				display: block;
+			}
+
+
+ /************************************************************************
+ 							footer section Start
+ *************************************************************************/	
+			.socil-icon,
+			.app-icon{
+				width: 100%;
+			}
+			
+	}
+	@media (max-width: 600px){
+	.app-section img{
+		height: 40px;
+		border-radius: 5px;
+		
+	}
+	
+	.img-11{
+		bottom: 15px; //sport section design
+		font-size: 14px;
+	}
+	.box-021{
+		padding: 0;    /*2nd colum */
+	}
+}
+

@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,700;1,400&family=Poppins:wght@500&family=Roboto:wght@400;700&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+img{
+	width: 100%;
+}
+.main-details{
+	max-width: 1280px;
+	margin: 20px auto;
+}
+.main-details-1{
+	padding: 0 15px;
+	justify-content: space-between;
+	display: flex;
+	margin: auto;
+	max-width: 1100px;
+}
+.heading-box-1{
+	padding: 10px 0;
+	line-height: 30px;
+}
+.heading-box-1 p a{
+	display: inline-block;
+	padding: 10px 0;
+	font-weight: bold;
+}
+.socil-icon-1{
+	line-height: 30px;
+}
+.socil-icon-2{
+	align-self: flex-end;
+}
+
+.free-add-2{
+	margin: 20px;
+	width: 300px;
+	height: 200px;	                     
+	background-color: #f3f3f361;
+	border: 1.5px solid #00000024;
+}
+/************************************************************************
+ 					news aection start from here
+ *************************************************************************/
+.read-news{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+}
+.news-box{
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	flex-grow: 1;
+	flex-basis: 700px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+	align-items: center;
+	border-bottom: 1.5px solid #00000024;
+
+}
+.news-img{
+	margin: 0 120px;
+	margin-bottom: 20px;
+	padding: 15px 0;
+	border-bottom: 1.5px solid #00000024;
+}
+.news-img img{
+
+	width: 100%;
+	margin-bottom: 10px;
+}
+.news-info{
+	margin: 0 120px;
+}
+.news-info p{
+	line-height: 30px;
+}
+.news-info-writter{
+	margin: 10px 120px;
+	align-self: flex-start;
+	color: black;
+	font-size: 12px;
+
+}
+.button-3{
+	align-self: flex-start;
+	margin: 10px 120px;
+}
+.button-3 p{
+	margin: 10px;
+	padding: 10px 0;
+	word-spacing: 2px;
+	font-size: 18px;
+	font-weight: 500;
+}
+.button-3 p a{
+	font-size: 20px;
+	font-weight: 600;
+}
+.button-3 button{
+	padding: 10px 13px;
+	margin: 10px;
+	border: none;
+
+}
+.button-3 button a{
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 500;
+
+}
+.aside-ad{
+	flex-grow: 1;
+	flex-basis: 300px;
+	margin: 15px 10px;
+
+}
+.aside-news{
+	padding: 10px 0;
+	margin: 10px 0;
+	border-bottom: 1.5px solid #00000024;
+}
+.aside-news-title p a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 26px;
+	font-family: 'Roboto', sans-serif;
+}
+.aside-news-read{
+	margin: 15px 0;
+	display: flex;
+
+}
+.aside-news-read p a{
+	text-decoration: none;
+	color: #121212;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+/************************************************************************
+ 			footer news aection start from here
+ *************************************************************************/
+
+.footer-news{
+	margin: 0 10px;
+	padding-top: 20px;
+	border-top: 2px solid #00000024;
+	display: flex;
+	column-gap: 20px;
+	overflow: auto;
+
+}
+.footer-news-1 img{
+	margin: 20px 0;
+	width: 300px;
+	height: 200px;
+}
+.footer-news-1 p a{
+	display: inline-block;
+	padding: 10px 0;
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 26px;
+	font-family: 'Roboto', sans-serif;
+}
+
+/************************************************************************
+					user page css
+ *************************************************************************/
+#admin-content{
+    padding: 20px 0;
+    min-height: 750px;
+}
+
+
+/************************************************************************
+					 Responcive design for news pages
+ *************************************************************************/
+
+@media (max-width: 1200px){
+
+	.news-info,
+	.news-info-writter,
+	.button-3,
+	.news-img{
+			margin: 0 70px;
+	}
+}
+
+
+@media (max-width: 900px){
+
+				.main-details-2{
+					display: none;
+				}
+
+
+				.news-info,
+				.news-info-writter,
+				.button-3,
+				.news-img{
+
+					margin: 0 30px;
+				}
+
+				.aside-ad{
+					width: 100%;
+					justify-content: center;
+					align-items: center;
+				}
+
+}
+@media (max-width: 500px){
+	.news-info,
+				.news-info-writter,
+				.button-3,
+				.news-img{
+
+					margin: 0 10px;
+				}
+}
